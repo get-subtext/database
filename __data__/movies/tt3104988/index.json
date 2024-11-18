@@ -1,0 +1,54 @@
+{
+  "imdbId": "tt3104988",
+  "title": "Crazy Rich Asians",
+  "releaseDate": "2018-08-15T00:00:00.000Z",
+  "releaseYear": 2018,
+  "rated": "PG-13",
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "directors": [
+    "Jon M. Chu"
+  ],
+  "writers": [
+    "Peter Chiarelli",
+    "Adele Lim",
+    "Kevin Kwan"
+  ],
+  "actors": [
+    "Constance Wu",
+    "Henry Golding",
+    "Michelle Yeoh"
+  ],
+  "runTimeMins": 120,
+  "plot": "This contemporary romantic comedy based on a global bestseller follows native New Yorker Rachel Chu to Singapore to meet her boyfriend's family.",
+  "posterIds": [
+    "1029dfbcf28ea66c7274dbf04e8fbd8d",
+    "756cfdc490d03b36731ee69b0eb17a23"
+  ],
+  "subtitleFileIds": [
+    "2e0f3d1788e07e79c771357a4e559205",
+    "844c490e61c23f5287eea7dd872e34c9",
+    "01e3a330eebe85ee7c9eb29981441613",
+    "07c79234d80a6ce69ec6b256f8b46188",
+    "21151d08b94d3d0163b5cef66bc39ae0",
+    "f9db1f511928c682c882fb0e68ae3c5c",
+    "b09d0d4f846417e6cf968aee005b6805",
+    "3bda0f1f6bf9ea9c93521799ea8d2041",
+    "3db669dc92c56d5b76b1ef96414897dc",
+    "ca1beb0838b469d4a043f0d2b133663b",
+    "695ba782e999d34c2af7a4ece84966ed",
+    "6ec1f4cc0a4474dc5ff0512afd516343",
+    "90c536c82349971953e3d92384315db0",
+    "0102e9cf8ffb061eb7b414ee31c2c1e2",
+    "375d7c4b2b8df63eec79cabc08ca294a",
+    "397e335e3e670019786d2133676793cc",
+    "27b6b678df34197b4c0c6fc0ba6f5a4b",
+    "fbabacc7647642b41523daae4279aed1",
+    "3d5eb07ab1f444521ba1805ef8862957",
+    "580602f6ba531a8839fed3f789756ab5"
+  ],
+  "isAvailable": true
+}
