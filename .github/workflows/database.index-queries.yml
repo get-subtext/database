@@ -1,0 +1,66 @@
+name: Database - Index Queries
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  index_queries:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+
+      - name: Configure pnpm
+        run: |
+          pnpm config set "@studio-75:registry" https://npm.pkg.github.com/
+          pnpm config set "//npm.pkg.github.com/:_authToken" ${{ secrets.NPM_TOKEN }}
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Index queries
+        env:
+          NODE_ENV: ${{ vars.NODE_ENV }}
+          LOG_LEVEL: ${{ vars.LOG_LEVEL }}
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER: ${{ github.repository_owner }}
+          REPO_NAME: ${{ github.event.repository.name }}
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+          OPEN_SUBTITLES_API_KEY: ${{ secrets.OPEN_SUBTITLES_API_KEY }}
+          SUBDL_API_KEY: ${{ secrets.SUBDL_API_KEY }}
+        run: pnpm run index-queries
+
+      - name: Pull
+        run: git pull origin main
+
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: automated data update
+          commit_options: '--no-verify --allow-empty'
+          push_options: '--force'

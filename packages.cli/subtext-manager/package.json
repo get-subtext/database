@@ -1,0 +1,65 @@
+{
+  "name": "@get-subtext/cli.subtext-manager",
+  "version": "1.0.0",
+  "bin": {
+    "subtext-manager": "./dist/index.js"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "run-s clean checktypes test pkgroll",
+    "clean": "shx rm -rf ./dist ./coverage",
+    "checktypes": "tsc --noEmit",
+    "dev:process-issue": "dotenvx run -- tsx ./src/index.ts process-issue",
+    "dev:index-queries": "dotenvx run -- tsx ./src/index.ts index-queries -u subtext-bot",
+    "test": "jest --verbose",
+    "pkgroll": "pkgroll --minify"
+  },
+  "dependencies": {
+    "@get-subtext/lib.helpdesk.issue-handler.sync-movie": "workspace:^",
+    "@get-subtext/lib.database": "workspace:^",
+    "@get-subtext/lib.help-desk": "workspace:^",
+    "@get-subtext/lib.help-desk.issue-manager.github": "workspace:^",
+    "@get-subtext/lib.movie-reader": "workspace:^",
+    "@get-subtext/lib.movie-reader.composite": "workspace:^",
+    "@get-subtext/lib.movie-reader.omdb": "workspace:^",
+    "@get-subtext/lib.movie-reader.open-subtitles": "workspace:^",
+    "@get-subtext/lib.movie-reader.subdl": "workspace:^",
+    "@get-subtext/lib.movie-writer": "workspace:^",
+    "@get-subtext/lib.movie-writer.subtext": "workspace:^",
+    "@get-subtext/lib.omdb.cache": "workspace:^",
+    "@get-subtext/lib.omdb.fetch": "workspace:^",
+    "@get-subtext/lib.open-subtitles.fetch": "workspace:^",
+    "@get-subtext/lib.subdl.fetch": "workspace:^",
+    "@get-subtext/lib.subtext.file-system": "workspace:^",
+    "@get-subtext/lib.fetch.tap": "workspace:^",
+    "@studio-75/lib.cache.file-system": "^1.0.0",
+    "@studio-75/lib.logging": "^1.0.0",
+    "@studio-75/lib.logging.mapped": "^1.0.0",
+    "@studio-75/lib.logging.secure": "^1.0.0",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^22.9.0",
+    "@types/yargs": "^17.0.33",
+    "bottleneck": "^2.19.5",
+    "colorette": "^2.0.20",
+    "envalid": "^8.0.0",
+    "json-colorizer": "^3.0.1",
+    "lodash-es": "^4.17.21",
+    "rollup": "^4.25.0",
+    "winston": "^3.16.0",
+    "yaml": "^2.6.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.22.0",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "npm-run-all": "^4.1.5",
+    "pkgroll": "^2.5.1",
+    "shx": "^0.3.4",
+    "ts-jest": "^29.2.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

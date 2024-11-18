@@ -1,0 +1,33 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@get-subtext/cli.subtext-manager": ["packages.cli/subtext-manager/src"],
+      "@get-subtext/lib.command.sync-movie": ["packages.lib.command/commands.sync-movie/src"],
+      "@get-subtext/lib.database": ["packages.lib.subtext/database/src"],
+      "@get-subtext/lib.fetch.tap": ["packages.lib.fetch/fetch.tap/src"],
+      "@get-subtext/lib.help-desk": ["packages.lib.helpdesk/helpdesk/src"],
+      "@get-subtext/lib.help-desk.issue-manager.github": ["packages.lib.helpdesk/helpdesk.issue-manager.github/src"],
+      "@get-subtext/lib.helpdesk.issue-handler.sync-movie": ["packages.lib.helpdesk/helpdesk.issue-handler.sync-movie/src"],
+      "@get-subtext/lib.movie-reader": ["packages.lib.movie-reader/movie-reader/src"],
+      "@get-subtext/lib.movie-reader.composite": ["packages.lib.movie-reader/movie-reader.composite/src"],
+      "@get-subtext/lib.movie-reader.omdb": ["packages.lib.movie-reader/movie-reader.omdb/src"],
+      "@get-subtext/lib.movie-reader.open-subtitles": ["packages.lib.movie-reader/movie-reader.open-subtitles/src"],
+      "@get-subtext/lib.movie-reader.subdl": ["packages.lib.movie-reader/movie-reader.subdl/src"],
+      "@get-subtext/lib.movie-writer": ["packages.lib.movie-writer/movie-writer/src"],
+      "@get-subtext/lib.movie-writer.subtext": ["packages.lib.movie-writer/movie-writer.subtext/src"],
+      "@get-subtext/lib.omdb": ["packages.lib.omdb/omdb/src"],
+      "@get-subtext/lib.omdb.cache": ["packages.lib.omdb/omdb.cache/src"],
+      "@get-subtext/lib.omdb.fetch": ["packages.lib.omdb/omdb.fetch/src"],
+      "@get-subtext/lib.open-subtitles": ["packages.lib.open-subtitles/open-subtitles/src"],
+      "@get-subtext/lib.open-subtitles.cache": ["packages.lib.open-subtitles/open-subtitles.cache/src"],
+      "@get-subtext/lib.open-subtitles.fetch": ["packages.lib.open-subtitles/open-subtitles.fetch/src"],
+      "@get-subtext/lib.subdl": ["packages.lib.subdl/subdl/src"],
+      "@get-subtext/lib.subdl.cache": ["packages.lib.subdl/subdl.cache/src"],
+      "@get-subtext/lib.subdl.fetch": ["packages.lib.subdl/subdl.fetch/src"],
+      "@get-subtext/lib.subtext": ["packages.lib.subtext/subtext/src"],
+      "@get-subtext/lib.subtext.file-system": ["packages.lib.subtext/subtext.file-system/src"]
+    }
+  }
+}
