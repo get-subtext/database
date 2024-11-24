@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  index_queries:
+  index_db:
     runs-on: ubuntu-latest
 
     permissions:
@@ -43,7 +43,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Index queries
+      - name: Index DB
         env:
           NODE_ENV: ${{ vars.NODE_ENV }}
           LOG_LEVEL: ${{ vars.LOG_LEVEL }}
@@ -53,7 +53,7 @@ jobs:
           OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
           OPEN_SUBTITLES_API_KEY: ${{ secrets.OPEN_SUBTITLES_API_KEY }}
           SUBDL_API_KEY: ${{ secrets.SUBDL_API_KEY }}
-        run: pnpm run index-queries
+        run: pnpm run index-db
 
       - name: Pull
         run: git pull origin main
