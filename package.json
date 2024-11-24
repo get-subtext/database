@@ -7,7 +7,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
     "prepare": "husky",
     "process-issue": "dotenvx run -- subtext-manager process-issue",
-    "index-queries": "dotenvx run -- subtext-manager index-queries -u subtext-bot"
+    "index-db": "dotenvx run -- subtext-manager index-db -u subtext-bot"
   },
   "devDependencies": {
     "@dotenvx/dotenvx": "^1.24.5",

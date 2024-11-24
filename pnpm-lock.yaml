@@ -40,19 +40,23 @@ packages:
       '@noble/ciphers': ^1.0.0
 
   '@get-subtext/cli.subtext-manager@0.0.1':
-    resolution: {integrity: sha512-Yy41r3RemkzYbeEfwNNslslPLcUhiZ7Jm8DCl1LGV7U/XPJNadd70jQRGPredoid/CSVOkRm1qihiwwMDhDQIw==, tarball: https://npm.pkg.github.com/download/@get-subtext/cli.subtext-manager/0.0.1/b54fcc4a71e31d922c5bc3761c7d93ba200c7641}
+    resolution: {integrity: sha512-31NrMdQfaq0wJYxI7nb4xm5unsVB0PlJN4NTUzwMQ6d496Ph6Qhi3zK2NcyEt3mv2ocyBZwj75/KIJQpB783zA==, tarball: https://npm.pkg.github.com/download/@get-subtext/cli.subtext-manager/0.0.1/4d921928f2e2d0be218f8c6ad9e2ae14643754f5}
     hasBin: true
 
-  '@noble/ciphers@1.0.0':
-    resolution: {integrity: sha512-wH5EHOmLi0rEazphPbecAzmjd12I6/Yv/SiHdkA9LSycsQk7RuuTp7am5/o62qYr0RScE7Pc9icXGBbsr6cesA==}
+  '@noble/ciphers@1.1.0':
+    resolution: {integrity: sha512-gwcX7IKSuCtlepJVa6sDLMB2EDaoLguFL6HxagKeFIzWGRfFE3mwcHs8mjx4yQY+rV736XGBhfl6Lw80YrTDTw==}
     engines: {node: ^14.21.3 || >=16}
 
-  '@noble/curves@1.6.0':
-    resolution: {integrity: sha512-TlaHRXDehJuRNR9TfZDNQ45mMEd5dwUwmicsafcIX4SsNiqnCHKjE/1alYPd/lDRVhxdhUAlv8uEhMCI5zjIJQ==}
+  '@noble/curves@1.7.0':
+    resolution: {integrity: sha512-UTMhXK9SeDhFJVrHeUJ5uZlI6ajXg10O6Ddocf9S6GjbSBVZsJo88HzKwXznNfGpMTRDyJkqMjNDPYgf0qFWnw==}
     engines: {node: ^14.21.3 || >=16}
 
-  '@noble/hashes@1.5.0':
-    resolution: {integrity: sha512-1j6kQFb7QRru7eKN3ZDvRcP13rugwdxZqCjbiAVZfIJwgj2A65UmT4TgARXGlXgnRkORLTDTrO19ZErt7+QXgA==}
+  '@noble/hashes@1.6.0':
+    resolution: {integrity: sha512-YUULf0Uk4/mAA89w+k3+yUYh6NrEvxZa5T6SY3wlMvE2chHkxFUUIDI8/XW1QSC357iA5pSnqt7XEhvFOqmDyQ==}
+    engines: {node: ^14.21.3 || >=16}
+
+  '@noble/hashes@1.6.1':
+    resolution: {integrity: sha512-pq5D8h10hHBjyqX+cfBm0i8JUXJ0UhczFc4r74zbuT9XgewFo2E3J1cOaGtdZynILNmQ685YWGzGE1Zv6io50w==}
     engines: {node: ^14.21.3 || >=16}
 
   ansi-escapes@7.0.0:
@@ -94,8 +98,8 @@ packages:
     resolution: {integrity: sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==}
     engines: {node: '>=18'}
 
-  cross-spawn@7.0.3:
-    resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
+  cross-spawn@7.0.6:
+    resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
   debug@4.3.7:
@@ -111,9 +115,9 @@ packages:
     resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
 
-  eciesjs@0.4.10:
-    resolution: {integrity: sha512-dYAgdXAC7/d9fEC0w6kpRWj5vHah2BQgMM639g78JI0FUUffMN2Mq60HEHPkyH8ah+FX+cQd6ouDK4kWiatzyw==}
-    engines: {node: '>=16.0.0'}
+  eciesjs@0.4.12:
+    resolution: {integrity: sha512-DGejvMCihsRAmKRFQiL6KZDE34vWVd0gvXlykFq1aEzJy/rD65AVyAIUZKZOvgvaP9ATQRcHGEZV5DfgrgjA4w==}
+    engines: {bun: '>=1', deno: '>=2', node: '>=16'}
 
   emoji-regex@10.4.0:
     resolution: {integrity: sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==}
@@ -374,7 +378,7 @@ snapshots:
     dependencies:
       commander: 11.1.0
       dotenv: 16.4.5
-      eciesjs: 0.4.10
+      eciesjs: 0.4.12
       execa: 5.1.1
       fdir: 6.4.2(picomatch@4.0.2)
       ignore: 5.3.2
@@ -382,19 +386,21 @@ snapshots:
       picomatch: 4.0.2
       which: 4.0.0
 
-  '@ecies/ciphers@0.2.1(@noble/ciphers@1.0.0)':
+  '@ecies/ciphers@0.2.1(@noble/ciphers@1.1.0)':
     dependencies:
-      '@noble/ciphers': 1.0.0
+      '@noble/ciphers': 1.1.0
 
   '@get-subtext/cli.subtext-manager@0.0.1': {}
 
-  '@noble/ciphers@1.0.0': {}
+  '@noble/ciphers@1.1.0': {}
 
-  '@noble/curves@1.6.0':
+  '@noble/curves@1.7.0':
     dependencies:
-      '@noble/hashes': 1.5.0
+      '@noble/hashes': 1.6.0
 
-  '@noble/hashes@1.5.0': {}
+  '@noble/hashes@1.6.0': {}
+
+  '@noble/hashes@1.6.1': {}
 
   ansi-escapes@7.0.0:
     dependencies:
@@ -425,7 +431,7 @@ snapshots:
 
   commander@12.1.0: {}
 
-  cross-spawn@7.0.3:
+  cross-spawn@7.0.6:
     dependencies:
       path-key: 3.1.1
       shebang-command: 2.0.0
@@ -437,12 +443,12 @@ snapshots:
 
   dotenv@16.4.5: {}
 
-  eciesjs@0.4.10:
+  eciesjs@0.4.12:
     dependencies:
-      '@ecies/ciphers': 0.2.1(@noble/ciphers@1.0.0)
-      '@noble/ciphers': 1.0.0
-      '@noble/curves': 1.6.0
-      '@noble/hashes': 1.5.0
+      '@ecies/ciphers': 0.2.1(@noble/ciphers@1.1.0)
+      '@noble/ciphers': 1.1.0
+      '@noble/curves': 1.7.0
+      '@noble/hashes': 1.6.1
 
   emoji-regex@10.4.0: {}
 
@@ -452,7 +458,7 @@ snapshots:
 
   execa@5.1.1:
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       get-stream: 6.0.1
       human-signals: 2.1.0
       is-stream: 2.0.1
@@ -464,7 +470,7 @@ snapshots:
 
   execa@8.0.1:
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       get-stream: 8.0.1
       human-signals: 5.0.0
       is-stream: 3.0.0
