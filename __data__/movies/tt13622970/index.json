@@ -1,0 +1,34 @@
+{
+  "imdbId": "tt13622970",
+  "title": "Moana 2",
+  "releaseDate": "2024-11-27T00:00:00.000Z",
+  "releaseYear": 2024,
+  "rated": "PG",
+  "genres": [
+    "Animation",
+    "Adventure",
+    "Comedy"
+  ],
+  "directors": [
+    "David G. Derrick Jr.",
+    "Jason Hand",
+    "Dana Ledoux Miller"
+  ],
+  "writers": [
+    "Jared Bush",
+    "Dana Ledoux Miller",
+    "Ron Clements"
+  ],
+  "actors": [
+    "Dwayne Johnson",
+    "Auli'i Cravalho",
+    "Alan Tudyk"
+  ],
+  "runTimeMins": 100,
+  "plot": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she has ever faced.",
+  "posterIds": [
+    "a942eade076ff892628e78b147ebc5b9"
+  ],
+  "subtitleFileIds": [],
+  "isAvailable": true
+}
