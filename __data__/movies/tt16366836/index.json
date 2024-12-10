@@ -1,0 +1,47 @@
+{
+  "imdbId": "tt16366836",
+  "title": "Venom: The Last Dance",
+  "releaseDate": "2024-10-25T00:00:00.000Z",
+  "releaseYear": 2024,
+  "rated": "PG-13",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "directors": [
+    "Kelly Marcel"
+  ],
+  "writers": [
+    "Kelly Marcel",
+    "Tom Hardy"
+  ],
+  "actors": [
+    "Tom Hardy",
+    "Chiwetel Ejiofor",
+    "Juno Temple"
+  ],
+  "runTimeMins": 110,
+  "plot": "Eddie and Venom, on the run, face pursuit from both worlds. As circumstances tighten, they're compelled to make a heart-wrenching choice that could mark the end of their symbiotic partnership.",
+  "posterIds": [
+    "78bfe78c4cd4766e9d6082dab413efec",
+    "a1adf77ffac48d1cb53a62c0c9932224"
+  ],
+  "subtitleFileIds": [
+    "1ff94292d856d4cdbc066b27c80cd2b8",
+    "6848239a5e342b3421b3fea53c0f6ad9",
+    "bf4be3444f56538366a10540703fbf5a",
+    "6b7364faaf7ed920e75b43d12c4df7b1",
+    "f57660da5e46a37a73d530cbd77d86b3",
+    "28f9a63e9b9194d821c7ab435aad2d47",
+    "94f76965d8cb01f48d773f4cf732c1dc",
+    "70fd68de20ac06bf8b5e7770d383a5ca",
+    "bf4607b909151a71925fe80c6342cb60",
+    "d1acaf35ab91a3df443f51ff9ebe7dd3",
+    "6e1385121f3cff733c1dbd6eaa44d132",
+    "32323377d318b4b2c622dc9ebc82e7c6",
+    "f9044cf6df030f680943501694837584",
+    "171dfe9d98359dbfc2f9620c4bd17a66"
+  ],
+  "isAvailable": true
+}
