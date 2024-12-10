@@ -25,13 +25,17 @@ pnpm run index-db
 This repository uses [@get-subtext scoped packages](https://github.com/orgs/get-subtext/packages), which have been published to the GitHub Package Registry. In
 order to have permission to install these packages, follow these steps to configure your npm environment:
 
-1. Navigate to the [User Settings / Access Tokens page](https://github.com/settings/tokens) and select 'Generate new token' | 'Generate new token (classic)'.
-2. Add '<YOUR_NAME>/personal - npm read' as note, 'No Expiration' as Expiration, 'read:packages' as scope, and click the 'Generate token' button.
-3. Run the following command in your terminal, replacing **{YOUR_PERSONAL_ACCESS_TOKEN}** with your actual token:
+1. Navigate to the [User Settings / Access Tokens page](https://github.com/settings/tokens).
+2. Select **Generate new token (classic)**.
+3. Fill out the form:
+   - **Note**: `<YOUR_NAME> - npm install`
+   - **Expiration**: No Expiration
+   - **Scope**: `read:packages`
+4. Copy the generated token and run the following commands, replacing `<YOUR_TOKEN>` with the token:
 
 ```bash
 npm config set "@get-subtext:registry" https://npm.pkg.github.com/
-npm config set "//npm.pkg.github.com/:_authToken" {YOUR_PERSONAL_ACCESS_TOKEN}
+npm config set "//npm.pkg.github.com/:_authToken" <YOUR_TOKEN>
 ```
 
 > Note: This only needs to be done once, for all repositories in the get-subtext GitHub group.
@@ -45,8 +49,8 @@ The CI/CD pipeline for this repository uses a Personal Access Token with the cor
 To create/rotate the token:
 
 1. Navigate to the [User Settings / Access Tokens page](https://github.com/settings/tokens) and select 'Generate new token' | 'Generate new token (classic)'.
-2. Add '@get-subtext/database - npm read' as note, 'No Expiration' as expiration, 'write:packages' as scope, and click the 'Generate token' button.
-3. Copy the value of the new token into the **NPM_TOKEN** action secret in the [Actions secrets and variables page](https://github.com/get-subtext/app/settings/secrets/actions/actions).
+2. Add '@get-subtext/database - npm install' as note, 'No Expiration' as expiration, 'write:packages' as scope, and click the 'Generate token' button.
+3. Copy the value of the new token into the **NPM_TOKEN** action secret in the [Actions secrets and variables page](https://github.com/get-subtext/database/settings/secrets/actions).
 
 > Note: If other repositories are using the same **NPM_TOKEN** in CI/CD, be sure to change them too.
 
