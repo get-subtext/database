@@ -10,11 +10,13 @@
     "index-db": "dotenvx run -- subtext-manager index-db -u subtext-bot"
   },
   "devDependencies": {
-    "@dotenvx/dotenvx": "^1.24.5",
-    "@get-subtext/cli.subtext-manager": "^0.0.1",
+    "@dotenvx/dotenvx": "^1.29.0",
     "husky": "^9.1.7",
-    "lint-staged": "^15.2.10",
+    "lint-staged": "^15.2.11",
     "npm-check-updates": "^17.1.11",
-    "prettier": "^3.3.3"
+    "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "@get-subtext/cli.subtext-manager": "^0.0.2"
   }
 }
