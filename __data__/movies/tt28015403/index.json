@@ -1,0 +1,41 @@
+{
+  "imdbId": "tt28015403",
+  "title": "Heretic",
+  "releaseDate": "2024-11-08T00:00:00.000Z",
+  "releaseYear": 2024,
+  "rated": "R",
+  "genres": [
+    "Horror",
+    "Thriller"
+  ],
+  "directors": [
+    "Scott Beck",
+    "Bryan Woods"
+  ],
+  "writers": [
+    "Scott Beck",
+    "Bryan Woods"
+  ],
+  "actors": [
+    "Hugh Grant",
+    "Sophie Thatcher",
+    "Chloe East"
+  ],
+  "runTimeMins": 111,
+  "plot": "Two young religious women are drawn into a game of cat-and-mouse in the house of a strange man.",
+  "posterIds": [
+    "2bd7349686693fe9eb50747298cafbd9",
+    "05e333eeea0cd5dcd0a3bf9f8b746223"
+  ],
+  "subtitleFileIds": [
+    "f7c100ab4b3752be57891b0c59e09b9f",
+    "ffbc18d1ca766ccf7cdf82f2ca864019",
+    "4a5f2b15958aacb5c71518b709e57efd",
+    "36c6bb9473eff2f5b83d5d1e84076ff1",
+    "b3031522f4dd4e07b10fce00216710f0",
+    "e86a0b24392076b93b6d5c3329781d55",
+    "318f277e726da64383de240e3aa4c63d",
+    "f50dd977c29bc407faf004b6118f9e0b"
+  ],
+  "isAvailable": true
+}
