@@ -1,0 +1,60 @@
+{
+  "imdbId": "tt0114558",
+  "title": "Strange Days",
+  "releaseDate": "1995-10-13T00:00:00.000Z",
+  "releaseYear": 1995,
+  "rated": "R",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "directors": [
+    "Kathryn Bigelow"
+  ],
+  "writers": [
+    "James Cameron",
+    "Jay Cocks"
+  ],
+  "actors": [
+    "Ralph Fiennes",
+    "Angela Bassett",
+    "Juliette Lewis"
+  ],
+  "runTimeMins": 145,
+  "plot": "A former cop turned street-hustler accidentally uncovers a conspiracy in Los Angeles in 1999.",
+  "posterIds": [
+    "fcc60bfe3ac921bf4618966ef32eb4ab",
+    "e6c78e52b4401a4195fc61faa2f10c18"
+  ],
+  "subtitleFileIds": [
+    "ccd322f5de4b66ab0c5aeca5ad1e09fd",
+    "fb96b1a792318af6cab367e04c33bbcc",
+    "2edb83d744478a34bfb455ec288c08ed",
+    "52df272e43230b58a3c9d4b4e638929d",
+    "91308c575d03501cefbe760ab7e7aca3",
+    "fe69ef34cf10a167d614e4e09be2e821",
+    "1fb775f93124efad510d9e4a7283faae",
+    "e03fb2aa835cedca210c8881eed573f8",
+    "0135dd1247cdeeeffe86adcb8da83979",
+    "d0db60b570f37e7b4e49a6c2be3e1f70",
+    "7c03433b1b7b8f0c82bd3c1213d771c5",
+    "a41301ae63da114c9afd722d8f5d81ff",
+    "33e90349b480d8ca5919a9089238c81f",
+    "30a4dcb39b0b58f3b38538be313c5c34",
+    "e6c80cec614619cbfd1e5c31119db61f",
+    "a9a9b732ad1f152c3601191ba96dcd0a",
+    "fd4d1d9a44478f5888759fb385c2042a",
+    "50d993207cece2f2dac6966392d8e55f",
+    "ee6cbce9f76964efdd4fd2471c9c83fe",
+    "6f0585502f5351c3ccd6df64bfe0facf",
+    "da760b5ef358778da33e0d2fe057670a",
+    "644abd6de862be19631ff8173e2efc7b",
+    "b4899035aab30cca3d7635a5d1f232ea",
+    "c8d997690c0d1a717ca02184b352d1d3",
+    "c77e91ff2cb4ec3e9aab50ed0442baf8",
+    "317fb719df5f18d60bab8903efdd0c4b",
+    "49473f12f0054143930d761c5f9d50ee"
+  ],
+  "isAvailable": true
+}
