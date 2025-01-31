@@ -1,0 +1,28 @@
+{
+  "imdbId": "tt26584495",
+  "title": "Companion",
+  "releaseDate": "2025-01-31T00:00:00.000Z",
+  "releaseYear": 2025,
+  "rated": "R",
+  "genres": [
+    "Thriller"
+  ],
+  "directors": [
+    "Drew Hancock"
+  ],
+  "writers": [
+    "Drew Hancock"
+  ],
+  "actors": [
+    "Sophie Thatcher",
+    "Harvey Guillén",
+    "Jack Quaid"
+  ],
+  "runTimeMins": 97,
+  "plot": "A billionaire's death sets off a chain of events for Iris and her friends during a weekend trip to his lakeside estate.",
+  "posterIds": [
+    "56777d02b170d4a16a6f7c2b925142d1"
+  ],
+  "subtitleFileIds": [],
+  "isAvailable": true
+}
