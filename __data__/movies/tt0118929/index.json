@@ -1,0 +1,83 @@
+{
+  "imdbId": "tt0118929",
+  "title": "Dark City",
+  "releaseDate": "1998-02-27T00:00:00.000Z",
+  "releaseYear": 1998,
+  "rated": "R",
+  "genres": [
+    "Fantasy",
+    "Mystery",
+    "Sci-Fi"
+  ],
+  "directors": [
+    "Alex Proyas"
+  ],
+  "writers": [
+    "Alex Proyas",
+    "Lem Dobbs",
+    "David S. Goyer"
+  ],
+  "actors": [
+    "Rufus Sewell",
+    "Kiefer Sutherland",
+    "Jennifer Connelly"
+  ],
+  "runTimeMins": 100,
+  "plot": "A man struggles with memories of his past, which include a wife he cannot remember and a nightmarish world no one else ever seems to wake up from.",
+  "posterIds": [
+    "9721db93d26068d70fcea7bde869fc0d",
+    "f4eba070a4363b38247c0b309ca95045"
+  ],
+  "subtitleFileIds": [
+    "cc5cafb535587165aee254be555f832a",
+    "8d321eb6e0aa4c538c9e218c691dad8b",
+    "4e577cceb799976f28230ad5e23a2255",
+    "6250694bfc8a2b7349bc893697afcc19",
+    "f467e13ff76ac30e1dc92e3f5b774689",
+    "da68aaafee5851aecd12866a7c509070",
+    "0f1e90d4fc3b7578883aaed21875e369",
+    "8c461eede14d2016a040c2265df75349",
+    "6f982d325cbf832ec06a39d17e8f71e5",
+    "0033b968ec8f3fe7bca8a04cb3447152",
+    "1e36d871647533e64210f17f068971e6",
+    "f266b6b5d3817c5b56d2c5f7962f2969",
+    "79cb3a8de0a7be30f600f1c17a5a3c4e",
+    "983738f8cff766e8b3335529a588f60d",
+    "4529f4d8639aef15f4bef899d9fc362d",
+    "c76fba9b6de77a8f32f2bce608cf4f86",
+    "942ba545f7d7dd13248fd3d6771dcd6a",
+    "014ef3f35e264efc255779f551b97661",
+    "1bb7a4a5d4023971d74c320ea2db88a3",
+    "12b7380cbe7b79208ec744366328de46",
+    "7702b63f93016f1e20d018ed84444018",
+    "67205beaceb1d194a31b727918fd8889",
+    "8fa2ca213f773c9a94327992189e9019",
+    "17b3d96871ebf614f36ebdf74c0a1487",
+    "814701535f7fdfab357f90057a806898",
+    "60968759f53e86d7b49420c20bdca6f0",
+    "4fe958b6acb505c7b7996cf8ce60fb7d",
+    "67c4dc907159f2e40fabe6f9ea8bb72a",
+    "6341b71295498b7d749a89e494fd284d",
+    "fce7e144ef67637888923db055b850b2",
+    "67ea7d0e31a3537802094a8927f806ff",
+    "0143f9ab5da7120df1e7e71a17b39dcf",
+    "6f9e09128e1e8d71a28e4aa2545f15aa",
+    "f1e0f086ecc59ce30a55fae9b0e30cf8",
+    "4500bceb9e89fd326f36d8bc1361c56c",
+    "7d4e9a9601fcc8ce28e021601f05c454",
+    "7b86d1617bd0e9a5793d8b82be18d04f",
+    "97593705201d951c21680a7712e1d73c",
+    "e5f7e4504278bc93d9c9782e710ba110",
+    "0d0b14e556426f1a5ab01e6f5e3e90e0",
+    "639c6cc8c39731962527ecb31a9fa54b",
+    "07333d0d6dc56d20bc9d8f66ed62b3f9",
+    "8b930f60085212b6106de5212ecdfd88",
+    "eb0d95c86b257cd47665ef584576c268",
+    "e404b2e4796dec93eb50dd0f763e2f64",
+    "a4b105cf3a54b755d224e874e82ecf33",
+    "b1b02c358dd91ca4d3196757741b17b1",
+    "998eec18a68176e86b02f58e6b952dd3",
+    "fe286a2b871258150cb7ad900fd7aba6"
+  ],
+  "isAvailable": true
+}
