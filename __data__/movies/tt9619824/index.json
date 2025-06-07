@@ -1,0 +1,39 @@
+{
+  "imdbId": "tt9619824",
+  "title": "Final Destination: Bloodlines",
+  "releaseDate": "2025-05-16T00:00:00.000Z",
+  "releaseYear": 2025,
+  "rated": "R",
+  "genres": [
+    "Horror"
+  ],
+  "directors": [
+    "Zach Lipovsky",
+    "Adam B. Stein"
+  ],
+  "writers": [
+    "Guy Busick",
+    "Lori Evans Taylor",
+    "Jon Watts"
+  ],
+  "actors": [
+    "Tony Todd",
+    "Brec Bassinger",
+    "Richard Harmon"
+  ],
+  "runTimeMins": 110,
+  "plot": "Plagued by a recurring violent nightmare, a college student returns home to find the one person who can break the cycle and save her family from the horrific fate that inevitably awaits them.",
+  "posterIds": [
+    "9ed1c6fee756fe14c9c7921fd6223afa",
+    "80b45c4eead25e9c4a773240386d83a7"
+  ],
+  "subtitleFileIds": [
+    "dc9146d9837e318aa5f1e3ecdcd0c38c",
+    "92a7368d10a471ff46a1b6c84caa61e9",
+    "1ca26e0587b6ddecf785d0b141897654",
+    "f8240dbde04848b6c949727108f25ebe",
+    "8b87b7cfde53c52da98616f7ee92d0c9",
+    "e0c2d549764da6b9a97c5b5e34bb3dc7"
+  ],
+  "isAvailable": true
+}
