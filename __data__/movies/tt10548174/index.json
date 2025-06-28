@@ -1,0 +1,30 @@
+{
+  "imdbId": "tt10548174",
+  "title": "28 Years Later",
+  "releaseDate": "2025-06-20T00:00:00.000Z",
+  "releaseYear": 2025,
+  "rated": "R",
+  "genres": [
+    "Horror",
+    "Thriller"
+  ],
+  "directors": [
+    "Danny Boyle"
+  ],
+  "writers": [
+    "Danny Boyle",
+    "Alex Garland"
+  ],
+  "actors": [
+    "Jack O'Connell",
+    "Aaron Taylor-Johnson",
+    "Ralph Fiennes"
+  ],
+  "runTimeMins": 115,
+  "plot": "A group of survivors of the rage virus lives on a small island. When one of the group leaves the island on a mission into the mainland, he discovers secrets, wonders, and horrors that have mutated not only the infected but other s...",
+  "posterIds": [
+    "5daa11e5a384345da0c9ed3360acbeb2"
+  ],
+  "subtitleFileIds": [],
+  "isAvailable": true
+}
