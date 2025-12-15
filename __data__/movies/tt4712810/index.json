@@ -1,0 +1,40 @@
+{
+  "imdbId": "tt4712810",
+  "title": "Now You See Me: Now You Don't",
+  "releaseDate": "2025-11-14T00:00:00.000Z",
+  "releaseYear": 2025,
+  "rated": "PG-13",
+  "genres": [
+    "Crime",
+    "Thriller"
+  ],
+  "directors": [
+    "Ruben Fleischer"
+  ],
+  "writers": [
+    "Michael Lesslie",
+    "Paul Wernick",
+    "Rhett Reese"
+  ],
+  "actors": [
+    "Jesse Eisenberg",
+    "Woody Harrelson",
+    "Dave Franco"
+  ],
+  "runTimeMins": 113,
+  "plot": "A diamond heist reunites retired Horsemen illusionists with new performers Greenblatt, Smith and Sessa as they target dangerous criminals.",
+  "posterIds": [
+    "46b991e78a4e45df5b3c72304e16405b",
+    "c4c832d35b9d6fb407e0bd69598e24c3",
+    "6c138b72085327cd6b72f28168628999",
+    "3a69f0d12fd3dcfe45695f25fe9930f0"
+  ],
+  "subtitleFileIds": [
+    "454cc75f42d59a68c5b9a1816526b863",
+    "c9077cb186ef2e43e1833688b7678fef",
+    "8cd2877e9f7bf64382ad8a472eea70a1",
+    "c081c92a54e28fef13dc7a4d40f05b20",
+    "1af833f8908ab9c885a81460fa67df8e"
+  ],
+  "isAvailable": true
+}
