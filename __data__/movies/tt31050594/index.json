@@ -1,0 +1,26 @@
+{
+  "imdbId": "tt31050594",
+  "title": "Mercy",
+  "releaseDate": "2025-08-15T00:00:00.000Z",
+  "releaseYear": 2025,
+  "rated": null,
+  "genres": [
+    "Sci-Fi"
+  ],
+  "directors": [
+    "Timur Bekmambetov"
+  ],
+  "writers": [
+    "Marco van Belle"
+  ],
+  "actors": [
+    "Rebecca Ferguson",
+    "Chris Pratt",
+    "Annabelle Wallis"
+  ],
+  "runTimeMins": null,
+  "plot": "A detective is accused of a crime and is forced to prove his innocence.",
+  "posterIds": [],
+  "subtitleFileIds": [],
+  "isAvailable": true
+}
